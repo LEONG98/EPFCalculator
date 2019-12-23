@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
                         in 51..55 -> saving = 228000
                     }
 
+                    
                     txtSaving.text = "RM " + saving.toString() + ".00";
                     txtAmount.text = "RM " + (saving * 0.3).toInt() + ".00";
                 },currentYear, currentMonth, currentDay)
